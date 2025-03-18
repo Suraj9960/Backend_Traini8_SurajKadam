@@ -14,12 +14,12 @@ This is a Spring Boot-based backend application for managing training centers. I
 * Create the database with the name traini8 in MySQL.
 * Update application.properties or application.yml with the following:
 #### 
-   **spring.datasource.url=jdbc:mysql://localhost:3306/traini8**
-   **spring.datasource.username=your_username**
-   **spring.datasource.password=your_password**
-   **spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver**
-   **spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect**
-   **spring.jpa.hibernate.ddl-auto=update**
+**spring.datasource.url=jdbc:mysql://localhost:3306/traini8**
+**spring.datasource.username=your_username**
+**spring.datasource.password=your_password**
+**spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver**
+**spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect**
+**spring.jpa.hibernate.ddl-auto=update**
 
 ### 2. API Input Format -
 * POST API ->
