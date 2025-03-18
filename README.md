@@ -15,6 +15,7 @@ This is a Spring Boot-based backend application for managing training centers. I
 * Update application.properties or application.yml with the following:
 #### 
 **spring.datasource.url=jdbc:mysql://localhost:3306/traini8**
+<br/>
 **spring.datasource.username=your_username**
 **spring.datasource.password=your_password**
 **spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver**
