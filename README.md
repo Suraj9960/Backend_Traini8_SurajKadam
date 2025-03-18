@@ -28,25 +28,28 @@ This is a Spring Boot-based backend application for managing training centers. I
 <br/>
 
 ### 2. API Input Format -
-* POST API ->
-   {
-  "centerName": "The Tech Excel",
-  "centerCode": "TRAINI8123X7",
-  "address": {
-    "detailedAddres": "123 First Main Road",
-    "city": "Chennai",
-    "state": "Tamilnadu",
-    "pincode": "600130"
+* POST API -><br>
+  {<br>
+  "centerName": "The Tech Excel",<br>
+  "centerCode": "TRAINI8123X7",<br>
+  "address": {<br>
+    "detailedAddres": "123 First Main Road",<br>
+    "city": "Chennai",<br>
+    "state": "Tamilnadu",<br>
+    "pincode": "600130"<br>
   },
-  "studentCapacity": 200,
-  "coursesOffered": ["Java", "Spring Boot", "SQL"],
-  "contactEmail":"abc@gmail.com",
-  "contactPhone":"1234567892"
-}
+  "studentCapacity": 200,<br>
+  "coursesOffered": ["Java", "Spring Boot", "SQL"],<br>
+  "contactEmail":"abc@gmail.com",<br>
+  "contactPhone":"1234567892"<br>
+}<br>
 
 
 ### 3. Check the responsers on Postman or any other tool
 * POST API -> localhost:8081/training-center/add-center
 * GET API -> localhost:8081/training-center/getAll
 * SEARCH API -> localhost:8081/training-center/search_training_center/{query}
+
+### 4. Set the port ->
+* Use **server.port=8081**.
 
