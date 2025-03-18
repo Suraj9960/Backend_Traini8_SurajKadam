@@ -46,6 +46,7 @@ This is a Spring Boot-based backend application for managing training centers. I
 
 
 ### 3. Check the responsers on Postman or any other tool
-* GET API ->
-* SEARCH API ->
+* POST API -> localhost:8081/training-center/add-center
+* GET API -> localhost:8081/training-center/getAll
+* SEARCH API -> localhost:8081/training-center/search_training_center/{query}
 
