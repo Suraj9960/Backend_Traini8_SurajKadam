@@ -65,6 +65,7 @@ This is a Spring Boot-based backend application for managing training centers. I
   },
   "studentCapacity": 200,<br>
   "coursesOffered": ["Java", "Spring Boot", "SQL"],<br>
+  "createdOn": "2025-03-18T22:55:16.3531397",<br>
   "contactEmail":"abc@gmail.com",<br>
   "contactPhone":"1234567892"<br>
 }<br>
