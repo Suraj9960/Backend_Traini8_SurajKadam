@@ -1,10 +1,9 @@
-**Traini8 Backend - Spring Boot Application**
+# Traini8 Backend - Spring Boot Application
 
-**Project Overview**
-
+## Project Overview
 This is a Spring Boot-based backend application for managing training centers. It provides REST APIs for handling training center-related operations.
 
-Prerequisites
+## Prerequisites
 1. Ensure you have the following installed on your system:
 2. Java 20
 3. Maven (Latest version recommended)
