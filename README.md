@@ -53,3 +53,19 @@ This is a Spring Boot-based backend application for managing training centers. I
 ### 4. Set the port ->
 * Use **server.port=8081**.
 
+### 5. Final Output (Post API):
+ {<br>
+  "centerName": "The Tech Excel",<br>
+  "centerCode": "TRAINI8123X7",<br>
+  "address": {<br>
+    "detailedAddres": "123 First Main Road",<br>
+    "city": "Chennai",<br>
+    "state": "Tamilnadu",<br>
+    "pincode": "600130"<br>
+  },
+  "studentCapacity": 200,<br>
+  "coursesOffered": ["Java", "Spring Boot", "SQL"],<br>
+  "contactEmail":"abc@gmail.com",<br>
+  "contactPhone":"1234567892"<br>
+}<br>
+
