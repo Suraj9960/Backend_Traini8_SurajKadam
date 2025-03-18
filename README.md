@@ -9,10 +9,10 @@ This is a Spring Boot-based backend application for managing training centers. I
 3. Maven (Latest version recommended)
 4. MySQL
 
-Setup Instructions:
+## Setup Instructions:
 1. Database Configuration -
-   Create the database with the name traini8 in MySQL.
-   Update application.properties or application.yml with the following:
+   * Create the database with the name traini8 in MySQL.
+   * Update application.properties or application.yml with the following:
    
       spring.datasource.url=jdbc:mysql://localhost:3306/traini8
       spring.datasource.username=your_username
